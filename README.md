@@ -19,6 +19,12 @@
 
 ---
 
+## 🌐 Install from Chrome Web Store
+
+👉 [**Click here to install Notes by Abhishek**](https://chromewebstore.google.com/detail/YOUR-EXTENSION-ID-HERE)
+
+---
+
 ## 🛠️ Installation (Development Mode)
 
 1. Clone or download this repository.

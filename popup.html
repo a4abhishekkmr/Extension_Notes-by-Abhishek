@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Note Taker</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .container {
+      width: 350px;
+      height: 450px;
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+    }
+
+    textarea {
+      width: 320px;
+      height: 280px;
+      border-radius: 8px;
+      border: 2px solid #5a8dee;
+      padding: 12px;
+      font-size: 16px;
+      color: #102a43;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+      resize: none;
+    }
+
+    button {
+      margin-top: 12px;
+      padding: 10px 24px;
+      font-size: 16px;
+      background-color: #5a8dee;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #3a63d6;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Note Taker - Abhishek</h2>
+    <textarea id="note" placeholder="Type here..."></textarea><br>
+    <button id="save">Save Note</button>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
